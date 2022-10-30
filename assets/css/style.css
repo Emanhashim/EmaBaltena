@@ -1,12 +1,12 @@
 
 body {
   background: #fff;
-  color: #444;
+  color: 	#000000;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #007bff;
+  color: #fed700;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -14,7 +14,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #fed700;
   outline: none;
   text-decoration: none;
 }
@@ -46,7 +46,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #007bff;
+  background: #fed700;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -55,13 +55,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #fed700;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #2990ff;
-  color: #fff;
+  background: #fed700;
+  color: #fed700;
 }
 
 .back-to-top.active {
@@ -76,7 +76,7 @@ h6 {
   height: 100px;
   z-index: 997;
   transition: all 0.5s;
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -101,7 +101,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #00366f;
+  color: 	#000000;
   text-decoration: none;
 }
 
@@ -140,7 +140,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: #004289;
+  color: #fed700;
   font-weight: 500;
   white-space: nowrap;
   transition: 0.3s;
@@ -192,7 +192,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #007bff;
+  color: #fed700;
 }
 
 .navbar .dropdown:hover>ul {
@@ -334,7 +334,7 @@ h6 {
 #hero {
   width: 100%;
   position: relative;
-  background: url("../img/hero-bg.png") center bottom no-repeat;
+  background: url("../img/hero-bg1.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -392,7 +392,7 @@ h6 {
 }
 
 #hero .hero-info h2 span {
-  color: #74b5fc;
+  color: #fed700;
   text-decoration: underline;
 }
 
@@ -414,12 +414,12 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
-  color: #fff;
+  color: #fed700;
 }
 
 #hero .hero-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #fed700;
+  border: 2px solid #fed700;
   color: #fff;
 }
 
@@ -434,8 +434,8 @@ h6 {
 }
 
 #hero .hero-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #fed700;
+  border-color: #fed700;
   color: #fff;
 }
 
@@ -450,7 +450,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #fed700;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -461,20 +461,21 @@ section {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #fed700;
   width: 50%;
 }
 
 @media (max-width: 767px) {
   .section-header p {
     width: 100%;
+    /* color: #fed700; */
   }
 }
 
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #ecf5ff;
+  background: #0e0d0d;
 }
 
 /*--------------------------------------------------------------
@@ -521,7 +522,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #6c757d;
+  color: #fed700;
   content: "/";
 }
 
@@ -542,7 +543,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: #000000;
   padding: 60px 0;
 }
 
@@ -551,11 +552,11 @@ section {
 }
 
 #about .about-container .content {
-  background: #fff;
+  background: #fed700;
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #fed700;
   font-weight: 700;
   font-size: 32px;
 }
@@ -569,7 +570,7 @@ section {
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  background: #fed700;
   background-size: cover;
   padding: 0 0 30px 0;
 }
@@ -583,22 +584,22 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #000000;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #fed700;
   font-size: 24px;
   line-height: 0;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #fed700;
 }
 
 #about .about-container .icon-box:hover .icon i {
-  color: #fff;
+  color: #fed700;
 }
 
 #about .about-container .icon-box .title {
@@ -609,22 +610,30 @@ section {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: #fed700;
 }
 
 #about .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  
 }
 
 #about .about-extra {
   padding-top: 60px;
 }
 
-#about .about-extra h4 {
+#about .about-extra h4{
   font-weight: 600;
   font-size: 24px;
+  color: #fed700;
+}
+
+#about .about-extra p{
+  font-weight: 600;
+  font-size: 24px;
+  color: #fed700;
 }
 
 /* Services Section
@@ -640,7 +649,7 @@ section {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #fff;
+  background: #fed700;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
@@ -687,22 +696,22 @@ section {
 
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #000000;
 }
 
 #why-us .section-header h3,
 #why-us .section-header p {
-  color: #fff;
+  color: #fed700;
 }
 
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #000000;
+  border-color: #000000;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
   text-align: center;
-  color: #fff;
+  color: #fed700;
   transition: 0.3s ease-in-out;
   height: 100%;
 }
@@ -714,14 +723,14 @@ section {
 }
 
 #why-us .card:hover {
-  background: #003b7a;
-  border-color: #003b7a;
+  background: #000000;
+  border-color: #fed700;
 }
 
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #fed700;
 }
 
 #why-us .card h5 {
@@ -731,19 +740,19 @@ section {
 
 #why-us .card p {
   font-size: 15px;
-  color: #d8eafe;
+  color: #fed700;
 }
 
 #why-us .card .readmore {
-  color: #fff;
+  color: #fed700;
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
+  border-bottom: #fed700 solid 2px;
 }
 
 #why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
+  border-bottom: #fed700 solid 2px;
 }
 
 #why-us .counters {
@@ -755,7 +764,7 @@ section {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #fff;
+  color: #fed700;
 }
 
 #why-us .counters p {
@@ -763,7 +772,7 @@ section {
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #cce5ff;
+  color: #fed700;
 }
 
 /* Portfolio Section
@@ -771,6 +780,7 @@ section {
 #portfolio {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
 }
 
 #portfolio #portfolio-flters {
@@ -787,18 +797,18 @@ section {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #fed700;
   border-radius: 50px;
   text-transform: uppercase;
-  background: #ecf5ff;
+  background: #000000;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
-  color: #fff;
+  background: #fed700;
+  color: #fed700;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -847,7 +857,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #fff;
+  color: #000000;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
@@ -857,7 +867,7 @@ section {
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #e2effe;
+  color: #000000;
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
@@ -879,7 +889,7 @@ section {
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
   font-size: 22px;
-  color: #fff;
+  color: #000000;
   line-height: 0;
 }
 
@@ -890,11 +900,11 @@ section {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
-  color: #fff;
+  color: #000000;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #003166;
+  background: #000000;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -1170,6 +1180,7 @@ section {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
+  background-color: #000000;
 }
 
 #contact .section-header {
@@ -1185,14 +1196,15 @@ section {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #000000;
 }
 
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
-  color: #888;
+  color:  #fed700;
+;
 }
 
 #contact .social-links {
@@ -1202,8 +1214,8 @@ section {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #fff;
-  color: #007bff;
+  background: #000000;
+  color: #fed700;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1212,21 +1224,21 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #007bff;
+  border: 1px solid #fed700;
 }
 
 #contact .social-links a:hover {
-  background: #007bff;
-  color: #fff;
+  background: #000000;
+  color: #000000;
 }
 
 #contact .info {
-  color: #283d50;
+  color: #fed700;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #fed700;
   float: left;
   line-height: 0;
 }
@@ -1239,8 +1251,8 @@ section {
 
 #contact .php-email-form .error-message {
   display: none;
-  color: #fff;
-  background: #ed3c0d;
+  color: #fed700;
+  background: #fed700;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1252,7 +1264,7 @@ section {
 
 #contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #000000;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1261,7 +1273,7 @@ section {
 
 #contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #fed700;
   text-align: center;
   padding: 15px;
 }
@@ -1274,7 +1286,7 @@ section {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #eee;
+  border-top-color: #000000;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -1304,7 +1316,7 @@ section {
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
-  color: #fff;
+  color: #000000;
   transition: 0.3s;
 }
 
@@ -1337,9 +1349,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #00428a;
+  background: #000000;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #fed700;
   font-size: 14px;
 }
 
@@ -1358,7 +1370,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #fed700;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1369,7 +1381,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #ecf5ff;
+  color: #fed700;
 }
 
 #footer .footer-top .social-links a {
@@ -1378,7 +1390,7 @@ section {
   align-items: center;
   justify-content: center;
   background: #007bff;
-  color: #fff;
+  color: #fed700;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -1393,13 +1405,13 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #0067d5;
-  color: #fff;
+  color: #fed700;
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #fed700;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1424,7 +1436,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #fed700;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -1455,7 +1467,7 @@ section {
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: #fff;
+  color: #fed700;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -1472,13 +1484,13 @@ section {
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #f1f7ff;
+  color: #fed700;
 }
 
 #footer .credits a {
-  color: #bfddfe;
+  color: #fed700;
 }
 
 #footer .credits a:hover {
-  color: #f1f7ff;
+  color: #fed700;
 }
